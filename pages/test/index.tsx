@@ -1,8 +1,8 @@
-import React from "react";
-import TestComp from "components/TestComp";
+import React from 'react';
+import TestComp from 'components/TestComp';
 
 const Test = () => {
-    return <TestComp />;
+  return <TestComp />;
 };
 
 export default Test;

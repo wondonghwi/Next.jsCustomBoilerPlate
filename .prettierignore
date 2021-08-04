@@ -1,0 +1,8 @@
+**/node_modules
+**/package.json
+**/yarn.lock
+**/package-lock.json
+**/tsconfig.json
+
+serviceWorker.js
+**/CrossDomainStorage.js
