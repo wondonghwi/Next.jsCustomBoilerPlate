@@ -5,6 +5,7 @@ module.exports = {
     node: false,
     browser: true,
     'shared-node-browser': true,
+    jest: true,
   },
   parserOptions: {
     ecmaFeatures: { jsx: true },
