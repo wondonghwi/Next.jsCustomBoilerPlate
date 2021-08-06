@@ -20,9 +20,9 @@
     "paths": {
       "@pages/*": ["pages/*"],
       "@components/*": ["src/components/*"],
-      "@hooks/*": ["src/shared/*"]
+      "@shared/*": ["src/shared/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.config.js", "jest.setup.js"],
   "exclude": ["node_modules"]
 }
