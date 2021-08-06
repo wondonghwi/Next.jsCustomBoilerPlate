@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import JestReactExample from '@pages/jest-example'; // jest.config.js 에서 설정한 경로 별칭을 사용할 수 있다
+import JestReactExample from '@shared/jest-example/index'; // jest.config.js 에서 설정한 경로 별칭을 사용할 수 있다
 
 describe('JestReactExample 페이지는', () => {
   it('heading 요소를 render 해야만 한다 ', () => {
