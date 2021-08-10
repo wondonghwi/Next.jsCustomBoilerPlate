@@ -11,4 +11,5 @@ module.exports = {
     '^@shared(.*)$': '<rootDir>/src/shared$1',
   },
   testEnvironment: '<rootDir>/node_modules/jest-environment-jsdom/build/index.js',
+  verbose: true,
 };
